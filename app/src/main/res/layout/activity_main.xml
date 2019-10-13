@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
+  android:background="@color/colorPrimary"
     tools:context="com.example.contactversion2.MainActivity">
 
     <LinearLayout
@@ -24,10 +24,11 @@
             android:layout_width="242dp"
             android:layout_height="100dp"
             android:layout_marginLeft="20dp"
-            android:text="ADD Danhba"
-            android:textSize="40dp"
-            android:textColor="#AD39E3"
-            />
+            android:layout_marginTop="30dp"
+            android:text="Add List"
+            android:gravity="center"
+            android:textColor="#291235"
+            android:textSize="40dp" />
 
     </LinearLayout>
 
@@ -39,22 +40,22 @@
 
     <EditText
         android:id="@+id/etName"
-        android:layout_width="242dp"
+        android:layout_width="400dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:background="#6B718E"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#7889D5"
         android:hint="Input Name" />
 
     <EditText
         android:id="@+id/etNumberPhone"
-        android:layout_width="244dp"
+        android:layout_width="400dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:background="#6B718E"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#7889D5"
         android:hint="Input NumberPhone:" />
 
     <ImageButton

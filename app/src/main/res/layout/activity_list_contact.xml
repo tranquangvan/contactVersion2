@@ -25,8 +25,8 @@
             android:backgroundTint="#00D11B1B"
             android:gravity="center"
             android:hint="Search"
-            android:textColor="#11051A"
-            android:textSize="20sp"
+            android:textColor="#513299"
+            android:textSize="30sp"
 
             />
         <ImageView
